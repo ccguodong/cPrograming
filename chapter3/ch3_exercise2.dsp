@@ -1,24 +1,24 @@
-# Microsoft Developer Studio Project File - Name="chapter3_one" - Package Owner=<4>
+# Microsoft Developer Studio Project File - Name="ch3_exercise2" - Package Owner=<4>
 # Microsoft Developer Studio Generated Build File, Format Version 6.00
 # ** DO NOT EDIT **
 
 # TARGTYPE "Win32 (x86) Console Application" 0x0103
 
-CFG=chapter3_one - Win32 Debug
+CFG=ch3_exercise2 - Win32 Debug
 !MESSAGE This is not a valid makefile. To build this project using NMAKE,
 !MESSAGE use the Export Makefile command and run
 !MESSAGE 
-!MESSAGE NMAKE /f "chapter3_one.mak".
+!MESSAGE NMAKE /f "ch3_exercise2.mak".
 !MESSAGE 
 !MESSAGE You can specify a configuration when running NMAKE
 !MESSAGE by defining the macro CFG on the command line. For example:
 !MESSAGE 
-!MESSAGE NMAKE /f "chapter3_one.mak" CFG="chapter3_one - Win32 Debug"
+!MESSAGE NMAKE /f "ch3_exercise2.mak" CFG="ch3_exercise2 - Win32 Debug"
 !MESSAGE 
 !MESSAGE Possible choices for configuration are:
 !MESSAGE 
-!MESSAGE "chapter3_one - Win32 Release" (based on "Win32 (x86) Console Application")
-!MESSAGE "chapter3_one - Win32 Debug" (based on "Win32 (x86) Console Application")
+!MESSAGE "ch3_exercise2 - Win32 Release" (based on "Win32 (x86) Console Application")
+!MESSAGE "ch3_exercise2 - Win32 Debug" (based on "Win32 (x86) Console Application")
 !MESSAGE 
 
 # Begin Project
@@ -28,7 +28,7 @@ CFG=chapter3_one - Win32 Debug
 CPP=cl.exe
 RSC=rc.exe
 
-!IF  "$(CFG)" == "chapter3_one - Win32 Release"
+!IF  "$(CFG)" == "ch3_exercise2 - Win32 Release"
 
 # PROP BASE Use_MFC 0
 # PROP BASE Use_Debug_Libraries 0
@@ -51,7 +51,7 @@ LINK32=link.exe
 # ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /machine:I386
 # ADD LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /machine:I386
 
-!ELSEIF  "$(CFG)" == "chapter3_one - Win32 Debug"
+!ELSEIF  "$(CFG)" == "ch3_exercise2 - Win32 Debug"
 
 # PROP BASE Use_MFC 0
 # PROP BASE Use_Debug_Libraries 1
@@ -78,15 +78,11 @@ LINK32=link.exe
 
 # Begin Target
 
-# Name "chapter3_one - Win32 Release"
-# Name "chapter3_one - Win32 Debug"
+# Name "ch3_exercise2 - Win32 Release"
+# Name "ch3_exercise2 - Win32 Debug"
 # Begin Source File
 
-SOURCE=.\chapter3_one.c
-# End Source File
-# Begin Source File
-
-SOURCE=.\cht3_exercise.cpp
+SOURCE=.\ch3_exercise2.c
 # End Source File
 # End Target
 # End Project
